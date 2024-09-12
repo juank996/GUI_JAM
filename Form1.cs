@@ -5,17 +5,24 @@ using System.Windows.Forms;
 
 namespace GUI_JAM
 {
-    public partial class MainForm : Form
+    public partial class Form1 : Form
     {
-        // Declaración de componentes
-        private ComboBox cbCabezal, cbCliente, cbLocacion, cbCreadoPor;
-        private TextBox txtRIG, txtWELL, txtHora, txtTecnicos, txtDescripcion, txtRepresentante, txtFSO;
-        private Label lblPlantillaStatus;
-        private PictureBox pbPreview;
-        private DateTimePicker dtpFecha;
-        private Button btnLimpiar, btnExportar;
-        private CheckBox cbDarkMode, cbSoloCaratula;
+        public Form1()
+        {
+            InitializeComponent();
+        }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+          // Declaración de componentes
+          private ComboBox cbCabezal, cbCliente, cbLocacion, cbCreadoPor;
+          private TextBox txtRIG, txtWELL, txtHora, txtTecnicos, txtDescripcion, txtRepresentante, txtFSO;
+          private Label lblPlantillaStatus;
+          private PictureBox pbPreview;
+          private DateTimePicker dtpFecha;
+          private Button btnLimpiar, btnExportar;
+          private CheckBox cbDarkMode, cbSoloCaratula;
+        }
         public MainForm()
         {
             InitializeComponent();

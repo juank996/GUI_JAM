@@ -10,7 +10,6 @@ namespace GUI_JAM
     {
         private System.ComponentModel.IContainer components = null;
 
-        // Required designer variable.
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,19 +19,17 @@ namespace GUI_JAM
             base.Dispose(disposing);
         }
 
-        // Required method for Designer support - do not modify
-        // the contents of this method with the code editor.
         private void InitializeComponent()
         {
             this.SuspendLayout();
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "Form1";
-            this.Text = "GUI JAM";
+            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
         }
