@@ -1,4 +1,6 @@
-﻿namespace GUI_JAM
+﻿// PUEDES LEER ESTO 1503
+
+namespace GUI_JAM
 {
     partial class Form1
     {
