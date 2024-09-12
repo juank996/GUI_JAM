@@ -1,10 +1,10 @@
-﻿// PUEDES LEER ESTO 1503
+﻿// PUEDES leer esto AAAAAAAA
 
 namespace GUI_JAM
 {
     partial class Form1
     {
-        private System.ComponentModel.IContainer components = null;
+        private System.ComponentModel.IContainer component = null;
 
         protected override void Dispose(bool disposing)
         {
